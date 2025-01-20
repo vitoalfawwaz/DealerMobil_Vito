@@ -23,3 +23,7 @@ Route::resource('produk', ProdukController::class);
 Route::resource('transaksi', TransaksiController::class);
 
 Route::post('transaksi/store', [TransaksiController::class, 'store'])->name('transaksi.store');
+
+
+
+
